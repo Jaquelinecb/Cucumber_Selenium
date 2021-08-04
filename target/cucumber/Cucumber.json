@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Iniciar sesión con los datos correctos",
+        "description": "",
+        "id": "iniciar-sesión-en-el-portal-de-firma;iniciar-sesión-con-los-datos-correctos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22227861800,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d92.0.4515.131)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-PPH753GQ\u0027, ip: \u002710.12.13.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\cuaht\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: de835b2a9263bc99b1bb63e9f419aca1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)\r\n\tat seleniumgluecode.IniciarSesion.el_usuario_accede_a_la_URL_del_Portal_de_Firma(IniciarSesion.java:23)\r\n\tat ✽.Given El usuario accede a la URL del Portal de Firma(iniciarSesion.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "El usuario accede a la URL del Portal de Firma",
+            "match": {
+              "location": "IniciarSesion.el_usuario_accede_a_la_URL_del_Portal_de_Firma()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Ingresa su nombre de usuario Usuario1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 36
+                }
+              ],
+              "location": "IniciarSesion.ingresa_su_nombre_de_usuario_Usuario(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Da clic en Continuar",
+            "match": {
+              "location": "IniciarSesion.da_clic_en_Continuar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Ingresa su clave de acceso 12121212Qw.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12121212",
+                  "offset": 27
+                }
+              ],
+              "location": "IniciarSesion.ingresa_su_clave_de_acceso_Qw(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Da clic en el botón Ingresar",
+            "match": {
+              "location": "IniciarSesion.da_clic_en_el_botón_Ingresar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "El usuario inicia sesión correctamente",
+            "match": {
+              "location": "IniciarSesion.el_usuario_inicia_sesión_correctamente()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Iniciar sesión en el Portal de Firma",
+    "description": "Como usuario quiero iniciar sesión en el portal de firma.",
+    "id": "iniciar-sesión-en-el-portal-de-firma",
+    "keyword": "Feature",
+    "uri": "iniciarSesion.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Ingresar a la categoria Comics desde la pantalla Home",
+        "description": "",
+        "id": "categoria-comics;ingresar-a-la-categoria-comics-desde-la-pantalla-home",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3618082200,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: unable to send message to renderer\n  (Session info: chrome\u003d92.0.4515.131)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-PPH753GQ\u0027, ip: \u002710.12.13.14\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\cuaht\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b7446d6c9b886cd26bdc0272ce28d458\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)\r\n\tat seleniumgluecode.Test.el_usuario_se_encuentra_en_la_pagina_Home_de_imalittletester(Test.java:22)\r\n\tat ✽.Given El usuario se encuentra en la pagina Home de imalittletester(test.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "El usuario se encuentra en la pagina Home de imalittletester",
+            "match": {
+              "location": "Test.el_usuario_se_encuentra_en_la_pagina_Home_de_imalittletester()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Hace click sobre el titulo The little tester comics",
+            "match": {
+              "location": "Test.hace_click_sobre_el_titulo_The_little_tester_comics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Se debe redirigir a la pantalla Comics",
+            "match": {
+              "location": "Test.se_debe_redirigir_a_la_pantalla_Comics()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Categoria Comics",
+    "description": "Como usuario quiero leer chistes de testers para reirme y pasar un buen rato.",
+    "id": "categoria-comics",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
