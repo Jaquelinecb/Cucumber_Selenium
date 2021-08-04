@@ -1,10 +1,7 @@
-Feature: Iniciar sesión en el Portal de Firma
+Feature: Iniciar sesión en el Portal de Firma: Iniciar sesión con los datos correctos
   Como usuario quiero iniciar sesión en el portal de firma.
 
-
- @TestCaseKey=DEMOJSW-T31
-    Scenario: Iniciar Sesión1
-    
+  @TestCaseKey=DEMOJSW-T33
   Scenario: Iniciar sesión con los datos correctos
     Given El usuario accede a la URL del Portal de Firma
     And Ingresa su nombre de usuario Usuario1
